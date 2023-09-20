@@ -1,0 +1,134 @@
+body {
+background-image: url('https://www.csgowallpapers.com/assets/images/original/mossawi_743422979954_20160524193346_921715856995.png');
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+h2 {
+font-size: 1.5rm;
+color: #303030;
+text-transform:uppercase;
+text-decoration:underline;
+text-align: center;
+}
+p {
+font-size: 18px;
+}
+q {
+color: darkslategrey
+}
+nav {
+  padding: 15px;
+  border: 3px solid white;
+  border-radius: 3px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    margin-left: 25px;
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+h1 {
+color: white;
+max-width: 500px;
+}
+p {
+color: white;
+min-height: 5px;
+max-height: 20px;
+}
+ul {
+list-style-type:square; 
+color:white;
+}
+.MainMenu {
+background-color: #dddddd;
+margin-top: 10px;
+margin-bottom: 50px;
+margin-left: 80px;
+margin-right: 80px;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 5px;
+padding-right: 5px;
+position: sticky;
+}
+.MainMenutext {
+color: darkslategrey;
+}
+.MainMenutext2 {
+color: darkslategrey;
+display: inline;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.search{
+    position: relative;
+}
+.search input{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #444;
+    color: #fff;
+}
+.search button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    color:#444;
+    font-weight: bold;
+}
